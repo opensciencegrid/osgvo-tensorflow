@@ -28,7 +28,8 @@ export DEBIAN_FRONTEND=noninteractive && \
         openjdk-8-jdk \
         openjdk-8-jre-headless \
         vim \
-        wget 
+        wget \
+        libxpm-dev
 
 apt-get clean 
 rm -rf /var/lib/apt/lists/*
