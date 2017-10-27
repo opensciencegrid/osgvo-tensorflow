@@ -93,6 +93,9 @@ pip3 install --upgrade tensorflow
 # keras
 pip3 install --upgrade keras
 
+# required directories
+mkdir -p /cvmfs
+
 # root
 cd /opt && \
     wget -nv https://root.cern.ch/download/root_v6.10.02.Linux-ubuntu16-x86_64-gcc5.4.tar.gz && \
