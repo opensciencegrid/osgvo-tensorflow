@@ -16,6 +16,7 @@ export DEBIAN_FRONTEND=noninteractive && \
         git \
         libfreetype6-dev \
         libpng12-dev \
+        libssl-dev \
         libzmq3-dev \
         module-init-tools \
         pkg-config \
