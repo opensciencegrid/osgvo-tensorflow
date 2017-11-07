@@ -11,6 +11,7 @@ apt-get update && apt-get upgrade -y --allow-unauthenticated
 export DEBIAN_FRONTEND=noninteractive && \
     apt-get install -y --allow-unauthenticated \
         build-essential \
+        cmake \
         curl \
         git \
         libfreetype6-dev \
