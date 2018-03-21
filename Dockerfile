@@ -63,7 +63,8 @@ RUN pip --no-cache-dir install \
     python -m ipykernel.kernelspec
 
 # Install TensorFlow
-RUN pip install --upgrade tensorflow
+RUN pip uninstall tensorflow || true
+RUN pip install --upgrade tensorflow==1.4
 
 # keras
 RUN pip install --upgrade keras
@@ -89,7 +90,8 @@ RUN pip3 --no-cache-dir install \
     python3 -m ipykernel.kernelspec
 
 # Install TensorFlow 
-RUN pip3 install --upgrade tensorflow
+RUN pip3 uninstall tensorflow || true
+RUN pip3 install --upgrade tensorflow==1.4
 
 # keras
 RUN pip3 install --upgrade keras
