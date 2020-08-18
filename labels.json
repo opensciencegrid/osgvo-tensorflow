@@ -1,0 +1,8 @@
+{
+    "opensciencegrid.name": "TensorFlow",
+    "opensciencegrid.description": "TensorFlow image (CPU only)",
+    "opensciencegrid.url": "https://www.tensorflow.org/",
+    "opensciencegrid.category": "Tools",
+    "opensciencegrid.definition_url": "https://github.com/opensciencegrid/osgvo-tensorflow"
+}
+
