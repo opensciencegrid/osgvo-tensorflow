@@ -13,6 +13,7 @@ RUN export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true && \
         libpng-dev \
         libssl-dev \
         libzmq3-dev \
+        python3-venv \
         && \
     apt-get clean
 
